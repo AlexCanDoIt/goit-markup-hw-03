@@ -69,7 +69,7 @@ body {
 }
 /* ========== end header ========== */
 
-/* ========== hero ========== */
+/* ========== hero section ========== */
 .hero-title {
 	font-weight: 900;
 	font-size: 44px;
@@ -93,9 +93,9 @@ body {
 	color: #ffffff;
 	background-color: #2196F3;
 }
-/* ========== end hero ========== */
+/* ========== end hero section ========== */
 
-/* ========== benefits ========== */
+/* ========== benefits section ========== */
 .benefits-list-title {
 	font-weight: 700;
 	font-size: 14px;
@@ -112,9 +112,9 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-white-theme-color);
 }
-/* ========== end benefits ========== */
+/* ========== end benefits section ========== */
 
-/* ========== about us ========== */
+/* ========== about us section ========== */
 .about-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -123,9 +123,9 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--title-white-theme-color);
 }
-/* ========== end about us ========== */
+/* ========== end about us section ========== */
 
-/* ========== our team ========== */
+/* ========== our team section ========== */
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -152,9 +152,9 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-white-theme-color);
 }
-/* ========== end our team ========== */
+/* ========== end our team section ========== */
 
-/* ========== portfolio ========== */
+/* ========== portfolio section ========== */
 .portfolio-filter-list-btn {
 	font-family: var(--main-font);
 	font-style: normal;
@@ -187,7 +187,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--text-white-theme-color);
 }
-/* ==========end portfolio ========== */
+/* ==========end portfolio section ========== */
 
 /* ========== footer ========== */
 .footer-logo {
