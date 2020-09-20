@@ -394,7 +394,7 @@ body {
 	color: #ffffff;
 }
 
-.footer-address-list-item {
+.footer-address-list-item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
