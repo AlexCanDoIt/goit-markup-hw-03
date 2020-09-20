@@ -300,6 +300,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--title-white-theme-color);
 }
+
 .portfolio-filter-list-btn:hover,
 .portfolio-filter-list-btn:focus {
 	background-color: var(--accent-color);
@@ -311,16 +312,20 @@ body {
 .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
-	height: 1272px;
 }
 
 .portfolio-list-item {
-	width: 370px;
-	height: 404px;
+	width: calc((100% - 2 * 30px) / 3);
 	background-color: #FFFFFF;
 	border: 1px solid #EEEEEE;
+}
+
+.portfolio-list-item:not(:nth-child(3n)) {
+	margin-right: 30px;
+}
+
+.portfolio-list-item:not(:nth-last-child(-n + 3)) {
+	margin-bottom: 30px;
 }
 
 .portfolio-list-link {
