@@ -178,6 +178,10 @@ body {
 	display: flex;
 }
 
+.benefits-list-item {
+	width: calc((100% - 3 * 30px) / 4);
+}
+
 .benefits-list-item:not(:last-child) {
 	margin-right: 30px;
 }
