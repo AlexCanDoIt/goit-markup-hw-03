@@ -31,6 +31,10 @@ body {
 	font-style: normal;
 }
 
+.img {
+	display: block;
+}
+
 .title {
 	margin-bottom: 50px;
 }
@@ -221,10 +225,6 @@ body {
 .about-list {
 	display: flex;
 	justify-content: space-between;
-}
-
-.about-list-img {
-	display: block;
 }
 /* ========== End About Us Section ========== */
 
