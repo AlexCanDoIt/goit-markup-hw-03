@@ -63,9 +63,7 @@ body {
   align-items: center;
 }
 
-.navigation-logo {
-  margin-right: 92px;
-
+.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -74,8 +72,13 @@ body {
   color: var(--accent-color);
 }
 
-.navigation-logo > span {
+.logo > span {
   color: #000000;
+}
+
+.navigation {
+  margin-left: 92px;
+  margin-right: auto;
 }
 
 .navigation-list {
@@ -100,10 +103,6 @@ body {
 
 .active {
   color: var(--accent-color);
-}
-
-.header .address {
-  margin-left: auto;
 }
 
 .header-address-list {
@@ -391,19 +390,12 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-logo {
+.footer .logo {
   display: block;
   margin-bottom: 20px;
-
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
 }
 
-.footer-logo span {
+.logo > span.inverse {
   color: #ffffff;
 }
 
