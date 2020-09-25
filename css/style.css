@@ -69,6 +69,16 @@ body {
   align-items: center;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navigation-list {
+  display: flex;
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -82,13 +92,8 @@ body {
   color: #000000;
 }
 
-.navigation {
-  margin-left: 92px;
-  margin-right: auto;
-}
-
-.navigation-list {
-  display: flex;
+.navigation > .logo {
+  margin-right: 92px;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -115,9 +120,8 @@ body {
   display: flex;
 }
 
-.header-address-list-item + 
-.header-address-list-item{
-  margin-left: 50px;
+.header-address-list-item:first-child {
+  margin-right: 50px;
 }
 
 .header-address-list-mail,
